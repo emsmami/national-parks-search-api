@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    color: black;
+    list-style: none;
+    display: block;
+    margin: 15px;
+    padding: 10px;
+}
+
+/*baseline media sizing, mobile first */
+form {
+    color: white;
+    background-color: rgba(9, 11, 29, 0.651);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+#form-label {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+#userInput {
+
+    font-size: 20px;
+    width: 300px;
+
+}
+
+#maxLimitInput {
+    width: 50px;
+}
+
+.chooser {
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#js-list-item {
+    padding-bottom: 30px;
+
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    margin-top: 5px;
+}
